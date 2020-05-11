@@ -1,4 +1,4 @@
-# Repositorio criado para estudos de Arquitetura
+# Estudos de Arquitetura
 
 O intuito desse repositório é que tenho que criar vergonha na cara e aprender de fato os nomes do padrões de projeto.
 
