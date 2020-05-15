@@ -8,7 +8,7 @@
  - Ele fornece uma maneira simples de estender a familia de objetos com pequenas alterações no código do aplicativo.
  - Acomplamento flexível, eliminando a necessidade de vincular estruturas especificas do código.
 
- # Implementação
+# Implementação
 
  O factory method define uma interface para criar objetos, mas permitem que os outros decidam quais objetos vai instanciar.
 
