@@ -8,7 +8,7 @@ O intuito desse repositório é que tenho que criar vergonha na cara e aprender 
 
 - [x] [Factory](factory/factory.md)
 - [x] [Abstract Factory](abstract-factory/abstract-factory.md)
-- [ ] [Build](build/build.md)
+- [x] [Build](build/build.md)
 - [ ] [Object Pool](object-pool/object-pool.md)
 
 

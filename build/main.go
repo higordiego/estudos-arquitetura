@@ -10,10 +10,10 @@ type construtora interface {
 
 func pegarConstrutora(casaTipo string) construtora {
 	if casaTipo == "normal" {
-		return &normalCasa{}
+		return novaNormalConstrutora()
 	}
 	if casaTipo == "linda" {
-		return &lindaCasa{}
+		return novaLindaConstrutora()
 	}
 	return nil
 }
@@ -23,7 +23,7 @@ type normalCasa struct {
 	portaTipo  string
 }
 
-func newNormalConstrutora() *normalCasa {
+func novaNormalConstrutora() *normalCasa {
 	return &normalCasa{}
 }
 
@@ -47,16 +47,16 @@ type lindaCasa struct {
 	portaTipo  string
 }
 
-func newLindaConstrutora() *lindaCasa {
+func novaLindaConstrutora() *lindaCasa {
 	return &lindaCasa{}
 }
 
 func (b *lindaCasa) inserirJanelasTipo() {
-	b.janelaTipo = "Janela Normal"
+	b.janelaTipo = "Janela linda"
 }
 
 func (b *lindaCasa) inserirPortasTipo() {
-	b.portaTipo = "Porta normal"
+	b.portaTipo = "Porta linda"
 }
 
 func (b *lindaCasa) pegarCasa() casa {
